@@ -1,0 +1,10 @@
+stow
+starship
+kitty
+rofi
+
+hyprland
+hyprpaper
+waybar
+
+ttf-cascadia-code-nerd
