@@ -10,8 +10,9 @@ cd yay
 makepkg -si --noconfirm
 
 # Install base packages
-echo "=====INSTALLING BASE PACKAGES"
-yay -S --needed - < packages/base_packages.txt
+echo "=====INSTALLING BASE PACKAGES
+pwd
+#yay -S --needed - < packages/base_packages.txt
 
 # Install Standard User Applications
 
