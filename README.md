@@ -6,7 +6,8 @@ arch Linux and Hyprland configuration and init script
     - run 'device list' to get devices
     - list networks with 'station devicename scan' and then 'station devicename get-networks'
     - connect to the network with the command 'station devicename connect SSIDname'
-
+    - exit out of iwctl
+    - run 'ip adr' to get ip info snd make sure you are connected
 
 # arch setup steps
 - install arch with 'archinstall'
