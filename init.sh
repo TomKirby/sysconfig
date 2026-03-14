@@ -10,7 +10,7 @@ cd yay
 makepkg -si --noconfirm
 
 # Install base packages
-echo "=====INSTALLING BASE PACKAGES
+echo "=====INSTALLING BASE PACKAGES"
 pwd
 #yay -S --needed - < packages/base_packages.txt
 
