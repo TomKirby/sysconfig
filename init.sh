@@ -8,6 +8,7 @@ sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
+cd ..
 
 # Install base packages
 echo "=====INSTALLING BASE PACKAGES"
