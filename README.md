@@ -1,6 +1,13 @@
 # sysconfig
 arch Linux and Hyprland configuration and init script
 
+# connect to WiFi
+- using 'iwctl' 
+    - run 'device list' to get devices
+    - list networks with 'station devicename scan' and then 'station devicename get-networks'
+    - connect to the network with the command 'station devicename connect SSIDname'
+
+
 # arch setup steps
 - install arch with 'archinstall'
 
