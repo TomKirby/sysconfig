@@ -4,16 +4,18 @@
 sudo pacman -Syu
 
 # Install yay
-sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
-cd ..
+if ! command -v yay &> /dev/null
+then
+    sudo pacman -S --needed base-devel
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si --noconfirm
+    cd ..
+fi
 
 # Install base packages
 echo "=====INSTALLING BASE PACKAGES"
-pwd
-#yay -S --needed - < packages/base_packages.txt
+yay -S --needed - < packages/base_packages.txt
 
 # Install Standard User Applications
 
