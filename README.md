@@ -13,7 +13,6 @@ arch Linux and Hyprland configuration and init script
 - install arch with 'archinstall'
 
 # post installation steps
-- install git
+- install git `sudo pacman -S git"
 - git pull this repo
-- run the init.sh script
-- pull the dot file repo after GH cli is installed
+- run the `bootstrap.sh` script

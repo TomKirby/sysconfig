@@ -13,9 +13,9 @@ then
     cd ..
 fi
 
-# Install base packages
-echo "=====INSTALLING BASE PACKAGES"
-yay -S --needed - < packages/base_packages.txt
+# Install github CLI
+yay -S --needed - github-cli
 
-# Install Standard User Applications
-
+ECHO "-----------COMPLETE-----------"
+ECHO "NOW PULL DOWN THE MAIN REPO"
+ECHO "-----------COMPLETE-----------"
